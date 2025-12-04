@@ -177,8 +177,6 @@ export default function Chat() {
   return (
     <ThemeProvider attribute="class" defaultTheme="dark">
       <div className="flex h-screen bg-black text-white overflow-hidden">
-        <AuroraBackground className="absolute inset-0 opacity-[0.15]" />
-
         {/* Sidebar */}
         <aside
           className={`${
